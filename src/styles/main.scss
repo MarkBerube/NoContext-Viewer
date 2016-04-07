@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'lorabold';
+    src: url('../fonts/lora-bold-webfont.eot');
+    src: url('../fonts/lora-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lora-bold-webfont.woff2') format('woff2'),
+         url('../fonts/lora-bold-webfont.woff') format('woff'),
+         url('../fonts/lora-bold-webfont.ttf') format('truetype'),
+         url('../fonts/lora-bold-webfont.svg#lorabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'merriweatherblack';
+    src: url('../fonts/merriweather-black-webfont.eot');
+    src: url('../fonts/merriweather-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/merriweather-black-webfont.woff2') format('woff2'),
+         url('../fonts/merriweather-black-webfont.woff') format('woff'),
+         url('../fonts/merriweather-black-webfont.ttf') format('truetype'),
+         url('../fonts/merriweather-black-webfont.svg#merriweatherblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('../fonts/sourcesanspro-regular-webfont.eot');
+    src: url('../fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('../fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+         url('../fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alegreyablack';
+    src: url('../fonts/alegreya-black-webfont.eot');
+    src: url('../fonts/alegreya-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/alegreya-black-webfont.woff2') format('woff2'),
+         url('../fonts/alegreya-black-webfont.woff') format('woff'),
+         url('../fonts/alegreya-black-webfont.ttf') format('truetype'),
+         url('../fonts/alegreya-black-webfont.svg#alegreyablack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'chivoblack';
+    src: url('../fonts/chivo-black-webfont.eot');
+    src: url('../fonts/chivo-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chivo-black-webfont.woff2') format('woff2'),
+         url('../fonts/chivo-black-webfont.woff') format('woff'),
+         url('../fonts/chivo-black-webfont.ttf') format('truetype'),
+         url('../fonts/chivo-black-webfont.svg#chivoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'crimson_textbold';
+    src: url('../fonts/crimsontext-bold-webfont.eot');
+    src: url('../fonts/crimsontext-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/crimsontext-bold-webfont.woff2') format('woff2'),
+         url('../fonts/crimsontext-bold-webfont.woff') format('woff'),
+         url('../fonts/crimsontext-bold-webfont.ttf') format('truetype'),
+         url('../fonts/crimsontext-bold-webfont.svg#crimson_textbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.family1 {
+    font-family: 'alegreyablack';
+    color: #06000a;
+    text-align:center;
+}
+
+.family2 {
+    font-family: 'lorabold';
+    color: #1d2120;
+    text-align:center;
+}
+
+.family3 {
+    font-family: 'merriweatherblack';
+    color: #3b3a36;
+    text-align:center;
+}
+
+.family4 {
+    font-family: 'chivoblack';
+    color: #22264b;
+    text-align:center;
+}
+
+.family5 {
+    font-family: 'crimson_textbold';
+    color: #312c32;
+    text-align:center;
+}
+
+.middle {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.subtext {
+    font-family: source_sans_proregular;
+    color: #222;
+    position: fixed;
+    z-index: 2;
+    display: inline;
+    bottom: 0;
+    text-align: center;
+}
+
+a {
+    text-decoration:none;
+}
